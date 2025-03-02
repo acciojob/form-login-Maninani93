@@ -1,5 +1,3 @@
-function getFormvalue() {
-    //Write your code here
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("form1").addEventListener("submit", getFormvalue);
 });
@@ -18,4 +16,3 @@ function getFormvalue(event) {
 
     alert(`${firstName} ${lastName}`);
 }
-
