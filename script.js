@@ -19,4 +19,3 @@ function getFormvalue(event) {
     alert(`${firstName} ${lastName}`);
 }
 
-}
